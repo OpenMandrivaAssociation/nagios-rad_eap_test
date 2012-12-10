@@ -51,3 +51,17 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/rad_eap_test.cfg
 %{_datadir}/nagios/plugins/rad_eap_test
 
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 0.23-2mdv2011.0
++ Revision: 612987
+- the mass rebuild of 2010.1 packages
+
+* Fri Apr 16 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.23-1mdv2010.1
++ Revision: 535484
+- import nagios-rad_eap_test
+
+
+* Fri Apr 16 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.23-1mdv2010.1
+- first mdv package
