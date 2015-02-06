@@ -1,6 +1,6 @@
 %define name    nagios-rad_eap_test
 %define version 0.23
-%define release %mkrel 2
+%define release 3
 
 Name:       %{name}
 Version:    %{version}
