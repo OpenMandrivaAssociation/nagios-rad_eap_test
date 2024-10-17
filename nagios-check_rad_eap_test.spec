@@ -8,7 +8,7 @@ Release:    %{release}
 Summary:    Nagios compatible shell script used for testing radius EAP methods
 Group:      Networking/Other
 License:    BSD
-URL:        http://wiki.eduroam.cz/rad_eap_test/
+URL:        https://wiki.eduroam.cz/rad_eap_test/
 Source:     http://wiki.eduroam.cz/rad_eap_test/rad_eap_test-%{version}.tar.bz2
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
